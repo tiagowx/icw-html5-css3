@@ -1,6 +1,8 @@
 body {
   background: #c7c7c7;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 900px;
+  margin: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -37,11 +39,12 @@ a {
   margin: 0;
   margin-bottom: 10px;
   text-transform: capitalize;
+  text-align: justify;
 }
 
 .post_image {
-  margin-bottom: 15px
-
+  margin-bottom: 15px;
+  width:100%
 }
 
 .contact_list {
